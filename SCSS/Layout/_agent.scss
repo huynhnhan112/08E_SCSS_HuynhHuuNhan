@@ -1,39 +1,39 @@
 .agent {
-    background-color: $color-dark-6;
-    .container {
-      .col-3 {
-        .card {
-          overflow: hidden;
-          > img {
-            width: 100%;
-            transition: all 1s linear;
-            &:hover {
-              transform: scale(1.1, 1.1);
-            }
-          }
+  background-color: $color-dark-6;
+  .container {
+    .item {
+      .card {
+        overflow: hidden;
+        > img {
+          width: 100%;
+          transition: all 1s linear;
           &:hover {
-            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+            transform: scale(1.1, 1.1);
           }
-          transition: all 0.3s linear;
-          .card-body {
-            text-align: center;
-            > p {
-              color: $color-pink-1;
-              font-size: $fs-1;
-              font-weight: $fw-2;
-              margin-bottom: $mg-8;
-            }
-            > h4 {
-              font-weight: $fw-3;
-              margin-bottom: $mg-6;
-            }
-            > span {
-              font-size: $fs-1;
-              color: $color-grey-1;
-              font-weight: $fw-2;
-            }
+        }
+        &:hover {
+          box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+        }
+        transition: all 0.3s linear;
+        .card-body {
+          text-align: center;
+          > p {
+            color: $color-pink-1;
+            font-size: $fs-1;
+            font-weight: $fw-2;
+            margin-bottom: $mg-8;
+          }
+          > h4 {
+            font-weight: $fw-3;
+            margin-bottom: $mg-6;
+          }
+          > span {
+            font-size: $fs-1;
+            color: $color-grey-1;
+            font-weight: $fw-2;
           }
         }
       }
     }
   }
+}
