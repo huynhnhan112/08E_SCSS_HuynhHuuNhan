@@ -1,0 +1,81 @@
+.footer{
+    .container{
+      color: $color-white-3;
+      .img {
+        position: absolute;
+        left: 0;
+        > img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .row {
+        margin-top: 100px;
+      }
+      .col-lg-3 {
+        > p {
+          font-size: 25px;
+          font-weight: $fw-3;
+        }
+        .inputNews {
+          color: white;
+          background-color: $color-pink-2;
+          border: 1px solid $color-pink-4;
+          border-radius: 100px;
+          font-size: 13px;
+          font-weight: 600;
+          padding: 15px 90px;
+        }
+        .ul {
+          > li {
+            font-size: $fs-1;
+            font-weight: $fw-2;
+            list-style: none;
+            margin-bottom: $mg-6;
+            padding-bottom: $pd-10;
+            transition: all 0.3s linear;
+            &:hover a{
+              text-decoration: none;
+              color: $color-pink-3;
+            }
+          }
+        }
+        .footer-2, .footer-3 {
+          > li {
+            border-bottom: 1px solid #990171;
+            > a {
+              color: $color-white-3;
+            }
+          }
+        }
+        .icon {
+          > a {
+            color: $color-white-3;
+            font-size: $fs-1;
+            padding-right: $pd-10;
+            &:hover {
+              color: $color-dark-2;
+            }
+            transition: all 0.3s linear;
+          }
+        }
+        .btnSub {
+          color: $color-dark-3;
+          font-size: $fs-1;
+          font-weight: $fw-2;
+          border: none;
+          border: 1px solid $color-white-3;
+          border-radius: 20px;
+          background-color: $color-white-3;
+          padding: $pd-9 $pd-7;
+          transition: all 0.3s linear;
+          &:hover {
+            color: $color-white-3;
+            border: none;
+            border: 2px solid $color-white-3;
+            background-color: $color-pink-2;
+          }
+        }
+      }
+    }
+  }

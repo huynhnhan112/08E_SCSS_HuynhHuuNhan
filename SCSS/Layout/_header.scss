@@ -1,0 +1,56 @@
+.header {
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .image1 {
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: -1;
+      }
+      .nav {
+        display: flex;
+        margin-left: $mg-2;
+        padding: 0 $pd-1;
+        > a {
+          color: $color-dark-5;
+          font-size: $fs-1;
+          padding: 0 $pd-1;
+          font-weight: $fw-2;
+          text-decoration: none;
+          &:hover {
+            color: $color-pink-1;
+          }
+          transition: all 0.3s linear;
+        }
+        .icon {
+          .phone {
+            font-size: $fs-1;
+            font-weight: $fw-2;
+            color: $color-white-3;
+            text-decoration: none;
+            background-color: $color-pink-2;
+            padding: 10px 15px;
+            margin-left: $mg-9;
+            border: 1px solid $color-pink-2;
+            border-radius: 30px;
+            &:hover {
+              color: $color-pink-1;
+              background-color: $color-white-3;
+            }
+            transition: all 0.3s linear;
+          }
+          > a {
+            color: $color-dark-5;
+            font-size: $fs-1;
+            margin-left: $mg-5;
+            &:hover {
+              color: $color-pink-1;
+            }
+            transition: all 0.3s linear;
+          }
+        }
+      }
+    }
+  }

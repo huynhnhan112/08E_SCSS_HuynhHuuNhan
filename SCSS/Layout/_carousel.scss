@@ -1,0 +1,23 @@
+.carousel {
+    .container {
+      .intro {
+        margin-top: 180px;
+        > p {
+          color: $color-pink-1;
+          font-size: $fs-2;
+          font-weight: $fw-3;
+        }
+        > h1 {
+          font-weight: $fw-3;
+          font-size: 60px;
+        }
+      }
+      .img img{
+        width: 100%;
+        height: auto;
+        position: absolute;
+        left: 0;
+        top: 400px;
+      }
+    }
+  }
